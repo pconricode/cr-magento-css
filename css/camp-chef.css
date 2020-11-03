@@ -1,0 +1,66 @@
+/*****  Styling for Block-Element: "image-text-combo-bar"  *****/
+
+.cr-image-text-combo-bar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.cr-image-text-combo-bar-grid-item {
+    width: 100%;
+    height: auto;
+}
+
+.cr-homepage-product-button {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 0px;
+}
+
+.cr-homepage-product-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cr-homepage-product-button:focus {
+    border-radius: 0px;
+}
+
+.cr-image-text-combo-bar-grid-item-text {
+    padding: 0px 40px;
+    text-align: left;
+
+}
+
+h1.cr-image-text-combo-bar-grid-item {
+    margin-bottom: 17px;
+}
+
+p.cr-image-text-combo-bar-grid-item {
+    margin-bottom: 17px;
+}
+
+button.cr-homepage-product-button:hover {
+    font-weight: 600;
+}
+
+button.cr-homepage-product-button:hover {
+    border: 2px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-image-text-combo-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .cr-image-text-combo-bar-grid-item-text {
+        padding: 15px 5px;
+    }
+}
+
+/*****  End Styling for Block-Element: "image-text-combo-bar"  *****/

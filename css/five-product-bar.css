@@ -1,0 +1,46 @@
+/*****  Styling for Block-Element: "five-products-bar"  *****/
+
+.cr-five-product-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0px 60px;
+    position: relative;
+}
+
+.cr-five-product-bar-img:hover {
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cr-five-product-bar-img {
+  padding-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 1475px) {
+  .cr-five-product-bar-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cr-five-product-bar {
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cr-five-product-bar {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .cr-five-product-bar-img {
+    width: auto;
+    height: auto;
+  }
+}
+
+
+
+
+/*****  End Styling for Block-Element: "five-products-bar"  *****/

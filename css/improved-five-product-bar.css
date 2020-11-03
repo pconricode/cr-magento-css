@@ -1,0 +1,87 @@
+/*****  Styling for Block-Element: "five-product-bar-womens-outerwear"  *****/
+
+.cr-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-family: "montserratregular", Helvetica, Arial, sans-serif;
+    margin: 0px 50px;
+}
+
+.cr-product {
+    padding: 20px;
+    justify-items: center;
+}
+
+.cr-product:hover {
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cr-product-img {
+    text-align: center;
+}
+
+img.five-prod-bar-img {
+    max-width: 220px;
+}
+
+a.five-prod-bar-link {
+    text-decoration: none;
+    color: black;
+}
+
+h3.cr-product-name {
+    font-size: .95em;
+    margin: 5px auto;
+    text-align: center;
+    width: 85%;
+}
+
+h3.cr-product-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #81907b;
+    font-size: .9em;
+}
+
+
+@media only screen and (max-width: 1415px) {
+    .cr-container {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    img.five-prod-bar-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .cr-product {
+        padding: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cr-product:hover {
+        box-shadow: 0 0 0 0;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .cr-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*****  End Styling for Block-Element: "five-product-bar-womens-outerwear"  *****/

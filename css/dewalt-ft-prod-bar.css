@@ -1,0 +1,70 @@
+/*****  Styling for Block-Element: "featured-product-cutout-bar"  *****/
+
+.cr-cutout-text-combo-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.cr-cutout-text-combo-bar-grid-item {
+    width: 100%;
+    height: auto;
+}
+
+.cr-homepage-product-button {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 0px;
+}
+
+.cr-homepage-product-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cr-homepage-product-button:focus {
+    border-radius: 0px;
+}
+
+.cr-cutout-text-combo-bar-grid-item-text {
+    padding: 0px 200px;
+    text-align: left;
+
+}
+
+h1.cr-cutout-text-combo-bar-grid-item {
+    margin-bottom: 17px;
+}
+
+p.cr-cutout-text-combo-bar-grid-item {
+    margin-bottom: 17px;
+}
+
+img.cr-cutout-text-combo-bar-grid-item {
+    max-width: 570px;
+    min-width: 330px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .cr-cutout-text-combo-bar-grid-item-text {
+        padding: 0px 100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-cutout-text-combo-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .cr-cutout-text-combo-bar-grid-item-text {
+        padding: 0px 5px;
+    }
+}
+
+/*****  End Styling for Block-Element: "featured-product-cutout-bar"  *****/

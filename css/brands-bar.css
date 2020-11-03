@@ -1,0 +1,25 @@
+
+
+.cr-home-brands-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px 0px;
+    justify-items: center;
+}
+
+.cr-home-brands-bar-grid-item {
+    width: 70%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-home-brands-bar {
+        padding: 8px;
+    }
+    
+    .cr-home-brands-bar-grid-item {
+        width: 90%;
+        height: auto;
+    }
+}

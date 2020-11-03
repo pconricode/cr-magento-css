@@ -1,0 +1,32 @@
+/*****  Formatting for 3-Image-Wide Ad Block  *****/
+
+.cr-home-3wide-ad-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cr-home-3wide-ad-bar div {
+    position: relative;
+}
+
+.cr-home-3wide-ad-bar-grid-item {
+    width: 100%;
+    height: auto;
+}
+
+.cr-center-img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-home-3wide-ad-bar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*****  End Formatting for 3-Image-Wide Ad Block  *****/
